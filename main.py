@@ -14,7 +14,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000", 
         "http://127.0.0.1:3000",
-        "https://YOUR-NEW-NAME.netlify.app" # Your live Netlify URL
+        "https://realornot-project.netlify.app" # Your live Netlify URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
